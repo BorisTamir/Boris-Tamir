@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>FishTank</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+  
+     <body>
+
+        <div class="container">
+            <div class="header">
+                <h1>AquaFun</h1>
+            </div>
+            <div class="instractions wrap">
+                <p>Welcome to AquaFun, raise your own little fish feed them and keep the aquarium clean. <br>  
+                click the left IMG to add new fish to the tank <br>
+                click the center IMG to add cleaners the aquarium <br>
+                click the right IMG to feed the fish <br>   
+                !importent! - keep the aquarium clean if the dirt will be over 100 - the game will be over
+            </div>
+             <div class="actionButtons wrap ">
+                <img src="Pics/goldfish2.png"class="addGoldFish actionButton">
+                <img src="Pics/Cleaninig fish1.jpg"class="addCleaningFish actionButton">
+                <img src="Pics/Feed the fish.png"class="feedTheFish actionButton">
+            </div>
+            <div class="scoreBoard wrap">
+                <p>Fish:</p> <input type="text" id="fishAmaunt" value="0"><br>
+                <p>Cleaners:</p> <input type="text" id="cleanersAmaunt" value="0"><br>
+                <p>Dirt Amaunt:</p> <input type="text" id="DirtAmaunt" value="0"><br>
+            </div>
+            <div class="fishTank"></div>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="scripts/fishTank.js"></script>
+    <script src="scripts/cleaningFish.js"></script>
+    <script src="scripts/fish.js"></script>
+    <script src="scripts/main.js"></script>
+
+
+  </body>
+</html>

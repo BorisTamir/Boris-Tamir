@@ -1,0 +1,63 @@
+*{
+    margin : 0;
+    box-sizing: border-box;
+}
+.container{
+    /*height: 300px;*/
+    width: 100%;
+    background-color: seashell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.wrap{
+    /*height: 100px;*/
+    width: 90%;
+    background: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.instractions{
+    justify-content: flex-start;
+}
+.wrap input{
+   text-align: center;
+}
+ .header h1{ 
+    margin : 10px;
+    font-size: 28px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.actionButtons .actionButton{
+    width: 100px;
+}
+.actionButton:hover { 
+    cursor: pointer;   
+}
+.fishTank{
+    opacity: 1;
+    margin-bottom: 20px;
+    height: 540px;
+    width:90%;
+    background: aqua;
+    position: relative;
+}
+.fishTank .fish{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+.fishTank .cleaner{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+.rotate-180 {
+   transform:rotatey(180deg);
+   /*transition : all 1s;*/
+}
+   
